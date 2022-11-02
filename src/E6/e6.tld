@@ -1,0 +1,32 @@
+<!-- El documento raíz (documento) debe ser único
+     Todas las etiquetas han de cerrarse.  La etiqueta imagen no se cierra
+     El valor de los atributos debe ir entre comillas.  El valor 1 es un valor del atributo importancia
+     Las etiquetas deben cerrarse con
+   -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<documento>
+    <p>Mi Primer
+        <destacar importancia="1">documento
+            XML</destacar>
+    </p>
+    <p>Comienza con la etiqueta </p>
+    <p>A continuacion colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif"> </imagen>
+</documento>
+
+        <!-- La etiqueta autor debe cerrarse.
+             No se permiten atributos repetidos.
+             El valor "cervantes" es un atributo de nombre y debe ir entre comillas.
+             Una etiqueta de cierre termina con >.
+             Las etiquetas son sensibles a las mayúsculas y también la etiqueta raíz. no debe cerrase </Libros> sino </libros>.
+        -->
+
+        <?xml version="1.0" encoding="UTF-8"?>
+<libros>
+<libro id="quijote">
+    <titulo>El Quijote</titulo>
+    <autor nombre="cervantes" > </autor>
+    <descripcion>Es el mejor libro de cervantes.</descripcion>
+</libro>
+</libros>
